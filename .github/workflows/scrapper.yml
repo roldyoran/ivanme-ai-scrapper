@@ -17,7 +17,7 @@ on:
           6. Resuelve automáticamente el captcha de ouo.io usando:
               - Espera inteligente hasta que aparezca el botón de continuar
               - Si hay checkbox 'Im a Human', haz clic en él y espera la validación
-              - Espera los segundos necesarios hasta que se habilite el botón de 'Get Link'
+              - Espera los 6 segundos necesarios hasta que se habilite el botón de 'Get Link'
               - Haz clic en 'Get Link' para proceder
           8. Espera la redirección final a MFIRE
           9. Extrae la URL final de MFIRE
