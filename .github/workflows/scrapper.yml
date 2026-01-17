@@ -9,7 +9,7 @@ on:
         default: |
           Usa el MCP de Playwright para automatizar la siguiente tarea:
 
-          1. Navega a la url: 'https://www.ivanime.com/paste/0729087/'
+          1. Navega a la url: 'https://www.ivanime.com/paste/3329422/'
           2. Busca la card de descarga con calidad 1080p que indica 1.3GB
           3. Encuentra el último enlace MFIRE dentro de esa card
           4. Haz clic en ese enlace para navegar a la página de ouo.io
