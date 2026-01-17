@@ -10,6 +10,7 @@ on:
           Usa el MCP de Playwright para automatizar la siguiente tarea:
 
           1. Navega a la url: 'https://www.ivanime.com/paste/3329422/'
+              1.2 También extrae el título del anime de la página original
           2. Busca la card de descarga con calidad 1080p que indica 1.3GB
           3. Encuentra el último enlace MFIRE dentro de esa card
           4. Haz clic en ese enlace para navegar a la página de ouo.io
@@ -21,7 +22,6 @@ on:
               - Haz clic en 'Get Link' para proceder
           8. Espera la redirección final a MFIRE
           9. Extrae la URL final de MFIRE
-          10. También extrae el título del anime de la página original
 
           Devuelve EXCLUSIVAMENTE una RESPUESTA DE TU PARTE con un objeto JSON con esta estructura:
           {
