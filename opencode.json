@@ -6,6 +6,7 @@
       "command": [
         "npx",
         "@playwright/mcp@latest",
+        "--user-data-dir=./mi-perfil-extensiones",
         "--headless"
       ],
       "enabled": true
