@@ -9,7 +9,8 @@ on:
         default: |
           Usa el MCP de Playwright para automatizar la siguiente tarea:
 
-          1. Navega a la url: 'https://www.ivanime.com/paste/3329422/'
+          1. En dado caso de que la página no cargue correctamente o encuentre un challenge de Cloudflare, usa curl para obtener el HTML y cargarlo en Playwright
+              1.1 Navega a la url: 'https://www.ivanime.com/paste/3329422/'
               1.2 También extrae el título del anime de la página original
           2. Busca la card de descarga con calidad 1080p que indica 1.3GB
           3. Encuentra el último enlace MFIRE dentro de esa card
